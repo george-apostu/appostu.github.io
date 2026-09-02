@@ -8,6 +8,7 @@ A static marketing website for Appostu (appostu.com), served via GitHub Pages. I
 
 Pages are plain `.html` files at the repo root:
 - `index.html` — main landing page (hero, about, values, stats, blog post, contact)
+- `holy-cross-app.html` — landing page for Orthodox Holidays (Romanian Orthodox calendar companion)
 - `essential-oils-app.html` — landing page for a separate dōTERRA essential oils companion app
 - `privacypolicy.html` — privacy policy
 - `google618fe4c536414081.html` — Google Search Console verification file (do not remove/rename)
