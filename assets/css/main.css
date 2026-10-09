@@ -2286,10 +2286,40 @@ section,
   margin-top: 20px;
 }
 
+.blog-details .content h2 {
+  font-size: 26px;
+  margin: 8px 0 16px;
+  font-weight: 700;
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
 .blog-details .content h3 {
   font-size: 22px;
   margin-top: 30px;
   font-weight: bold;
+}
+
+.legal-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+}
+
+/* Clear the fixed header on the app legal pages, including in-page language jumps. */
+.legal-page.section {
+  padding-top: 130px;
+  overflow: visible;
+}
+
+.legal-page #en,
+.legal-page #ro,
+.legal-page .content h2,
+.legal-page .content h3 {
+  scroll-margin-top: 120px;
 }
 
 .blog-details .content blockquote {
